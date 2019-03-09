@@ -10,11 +10,11 @@ https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1
 
 ## Platform - Tensorflow
 - What is Tensorflow?<br>
-		- Framework for math using computation graphs<br>
-		- Has Features specifically for machine learning<br>
-		- Primary interface is Python, integrates with NumPy<br>
-				- Implemented in C++ & CUDA<br>
-		- Designed to be flexible, scalable, and deplyable
+	- Framework for math using computation graphs<br>
+	- Has Features specifically for machine learning<br>
+	- Primary interface is Python, integrates with NumPy<br>
+		- Implemented in C++ & CUDA<br>
+	- Designed to be flexible, scalable, and deplyable
 
 ### HW1 - OR,AND,NAND,XOR
 - Computation Graph for OR, AND, NAND, XOR
