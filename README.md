@@ -14,6 +14,6 @@ https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1
 
 ### HW2 - Mnist for Boj 15636
 - Create a Mnist model that categorizes the numbers shown in the figure.
-![linear](./Study_HW/deep_hw2_Mnist_Boj/linear.jpg)
+![linear](./Study_HW/deep_hw2_Mnist_Boj/linear.png)
 
 ### HW3 - Backpropagation
