@@ -1,0 +1,41 @@
+SGD는 batch size = n mini batch
+
+batch size의 크기에 따라 data set을 훈련시킬 때 
+
+1 - SGD
+n - mini batch
+all - gradient Decenct
+
+logistic Regression - Linear는 회귀이다. 하지만 logistic은 classifier을 1아니면 0으로 분류하는것이다. 
+
+sigmoid - 
+
+softmax - 여러개를 분류하고 싶을 떄 확률값으로 분리하고싶을때 사용한다. (logistic은 0아니면 1이므로) -> 확률을 변조시킬때 one-hot encoding(argmax)
+
+cross validation - cross validation train 3개로 쪼개는게 기본 
+test set을 훨씬 많이 쪼갠다. (그 중 t / t/ t / t/ v / test) t t t v t / test // t t v t t 
+
+foward propagation - 앞으로 가면서 y값을 예측한다 (w값을 바꾸지는 않는다.) 
+back propagation - 어떤 값이 가장 영향을 많이 미치는지 알고싶으면 미분값을 알면 된다.
+앞에서부터 미분을 하면 너무 오래걸리니 뒤에서 미분하면서 알아가는데
+(앞에서 미분을 하려면 연쇄 법칙을 중복된 부분이 앞에서 게속해서 개선을 해야하는데, 앞에서부터 top dwon, 뒤에서 부터하면 bottom up)
+
+vanishing gradient - 0.0000 * 0.00001 곱하면 back propagation할때 0이 되는 
+
+ReLu - activation function - max(0,x)
+
+Xavier/He initializtion - Random 초기화를 할 때 Local minima에 빠질 수 있는데 사비에 초기화를 쓰면 덜 빠지고, 성능이 좋다.
+
+model ensemble - 모델을 여러개 만들어서 합쳐서 y를 예측한다. (2~3%정도에 확률 올라간)
+
+drop out - 신경망중 랜덤적으로 node를 죽이는것 (sudo(의사) ensemble - 가짜 앙상블) 갈때마다 죽인다.
+
+CNN - image를 쪼개고, 합쳐서 예측해도 좋다. (scaling이나 shift에 강하다) 어디위치에 있어도 image 판별이 가능함
+
+zero padding - CNN을 하면 size를 유지하려고 하는 이유 (stride를 하면 크기가 너무 빨리 줄어들기 때문에)
+
+max pooling - filter size에서 가장 큰 수를 뽑는 작업
+
+Fully Connetectd Layer - Foward Propagation 학습 과정을 Fully Connetected Layer라고 한다.
+
+RNN - Sequence같은 여러 데이터를 학습시킬때 연속적으로 학습에 영향을 미치는 모델
