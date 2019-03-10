@@ -16,12 +16,14 @@ https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1
 		- Implemented in C++ & CUDA<br>
 	- Designed to be flexible, scalable, and deplyable
 
-### HW1 - OR,AND,NAND,XOR
-- Computation Graph for OR, AND, NAND, XOR
+## HW1 - OR,AND,NAND,XOR
+- Computation Graph for OR, AND, NAND, XOR<br>
 ![03](./Study_HW/deep_hw1_OR,AND,NAND,XOR/Intel-TF101-Class1/Intel-TF101-Class1/images/03.png)
 ![04](./Study_HW/deep_hw1_OR,AND,NAND,XOR/Intel-TF101-Class1/Intel-TF101-Class1/images/04.png)
-### HW2 - Mnist for Boj 15636
-- Create a Mnist model that categorizes the numbers shown in the figure.
+
+## HW2 - Mnist for Boj 15636
+- Create a Mnist model that categorizes the numbers shown in the figure.<br>
 ![linear](./Study_HW/deep_hw2_Mnist_Boj/linear.png)
 
-### HW3 - Backpropagation
+## HW3 - Backpropagation
+- 추가
